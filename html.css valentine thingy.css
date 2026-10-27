@@ -1,0 +1,49 @@
+html{
+       height: 100%;
+       width: 100%;
+}
+
+@font-face {
+  font-family: 'oliver';
+  src: url('Oliver-Regular.ttf') format(truetype);
+}
+
+h1{
+    color: #cf4d6f;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+   body{
+     background-color:  #f4a4c0;
+     font-family: 'oliver';
+    }
+
+ .cats{
+   max-width: 200px;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ } 
+ .answerbuttons{
+    text-align: center; 
+    word-spacing: 20px;
+ }
+
+   .links{
+      text-decoration: none;
+      color: #cf4d6f;
+      padding: 15px 26px;
+      border: 2px solid #cf4d6f;
+      border-radius: 5px;
+      background-color: #ffdccc;
+ }
+
+ a:hover{ 
+    color: red;
+    border: 2px solid red;
+
+
+ }
